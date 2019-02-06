@@ -180,7 +180,6 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\AccountViewModels.cs" />
-    <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
@@ -257,6 +256,20 @@
     <None Include="packages.config" />
     <Content Include="Scripts\jquery-3.3.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.3.1.min.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\GarlicStore.Data\GarlicStore.Data.csproj">
+      <Project>{fdcd9960-4830-4905-8d69-12b46fb1dce4}</Project>
+      <Name>GarlicStore.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GarlicStore.Models\GarlicStore.Models.csproj">
+      <Project>{126a2fce-fb11-479c-99ad-09ff21460c3b}</Project>
+      <Name>GarlicStore.Models</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GarlicStore.Services\GarlicStore.Services.csproj">
+      <Project>{3250f088-7820-498a-af86-74b60350c4f8}</Project>
+      <Name>GarlicStore.Services</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

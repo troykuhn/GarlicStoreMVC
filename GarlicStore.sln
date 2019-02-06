@@ -5,6 +5,16 @@ VisualStudioVersion = 15.0.28307.271
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GarlicStore.WebMVC", "GarlicStore.WebMVC\GarlicStore.WebMVC.csproj", "{ECB2BCF8-3DBD-45D9-AD53-E3BC7FA901B5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GarlicStore.Data", "GarlicStore.Data\GarlicStore.Data.csproj", "{FDCD9960-4830-4905-8D69-12B46FB1DCE4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GarlicStore.Models", "GarlicStore.Models\GarlicStore.Models.csproj", "{126A2FCE-FB11-479C-99AD-09FF21460C3B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GarlicStore.Contracts", "GarlicStore.Contracts\GarlicStore.Contracts.csproj", "{AD03926C-10FE-4B9E-87BC-30CC99D6D875}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GarlicStore.Services", "GarlicStore.Services\GarlicStore.Services.csproj", "{3250F088-7820-498A-AF86-74B60350C4F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GarlicStore.Tests", "GarlicStore.Tests\GarlicStore.Tests.csproj", "{DBD39C0B-E0AA-4DF8-B4F0-4203813E1274}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +25,26 @@ Global
 		{ECB2BCF8-3DBD-45D9-AD53-E3BC7FA901B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ECB2BCF8-3DBD-45D9-AD53-E3BC7FA901B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ECB2BCF8-3DBD-45D9-AD53-E3BC7FA901B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDCD9960-4830-4905-8D69-12B46FB1DCE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDCD9960-4830-4905-8D69-12B46FB1DCE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDCD9960-4830-4905-8D69-12B46FB1DCE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDCD9960-4830-4905-8D69-12B46FB1DCE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{126A2FCE-FB11-479C-99AD-09FF21460C3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{126A2FCE-FB11-479C-99AD-09FF21460C3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{126A2FCE-FB11-479C-99AD-09FF21460C3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{126A2FCE-FB11-479C-99AD-09FF21460C3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD03926C-10FE-4B9E-87BC-30CC99D6D875}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD03926C-10FE-4B9E-87BC-30CC99D6D875}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD03926C-10FE-4B9E-87BC-30CC99D6D875}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD03926C-10FE-4B9E-87BC-30CC99D6D875}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3250F088-7820-498A-AF86-74B60350C4F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3250F088-7820-498A-AF86-74B60350C4F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3250F088-7820-498A-AF86-74B60350C4F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3250F088-7820-498A-AF86-74B60350C4F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBD39C0B-E0AA-4DF8-B4F0-4203813E1274}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBD39C0B-E0AA-4DF8-B4F0-4203813E1274}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBD39C0B-E0AA-4DF8-B4F0-4203813E1274}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBD39C0B-E0AA-4DF8-B4F0-4203813E1274}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

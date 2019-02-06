@@ -11,6 +11,7 @@ using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin;
 using Microsoft.Owin.Security;
 using GarlicStore.WebMVC.Models;
+using GarlicStore.Data;
 
 namespace GarlicStore.WebMVC
 {
