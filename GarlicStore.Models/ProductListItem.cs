@@ -1,24 +1,20 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GarlicStore.Data
+namespace GarlicStore.Models
 {
-    public class Product
+    public class ProductListItem
     {
-        [Key]
+        [DisplayName("Product Id")]
         public int ProductId { get; set; }
-
-        [Required]
+        [DisplayName("Product Name")]
         public string ProductName { get; set; }
-        [Required]
-        public string SKU { get; set; }
-        [Required]
+        [DisplayName("Stock Quantity")]
         public int StockQuantity { get; set; }
-        [Required]
-        public decimal Price { get; set; }
     }
 }

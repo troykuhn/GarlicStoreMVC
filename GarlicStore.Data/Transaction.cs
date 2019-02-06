@@ -11,10 +11,13 @@ namespace GarlicStore.Data
     {
         [Key]
         public int TransactionId { get; set; }
+        [Required]
         public DateTime DateOfTransaction { get; set; }
+        [Required]
         public int ProductId { get; set; }
+        [Required]
         public decimal OrderCost { get; set; }
+        [Required]
         public virtual Product Product { get; set; }
-        public int MyProperty { get; set; }
     }
 }

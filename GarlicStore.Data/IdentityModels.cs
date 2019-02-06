@@ -41,6 +41,7 @@ namespace GarlicStore.Data
 
         public DbSet<Product> Products { get; set; }
         public DbSet<Transaction> Transactions { get; set; }
+        public DbSet<Review> Reviews { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
@@ -67,7 +68,7 @@ namespace GarlicStore.Data
     {
         public IdentityUserRoleConfiguration()
         {
-            HasKey(iur => iur.RoleId);
+            HasKey(iur => iur.UserId);
         }
     }
 
