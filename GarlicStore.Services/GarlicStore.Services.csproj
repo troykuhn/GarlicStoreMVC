@@ -56,10 +56,22 @@
   <ItemGroup>
     <Compile Include="ProductService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReviewService.cs" />
+    <Compile Include="TransactionService.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\GarlicStore.Data\GarlicStore.Data.csproj">
+      <Project>{FDCD9960-4830-4905-8D69-12B46FB1DCE4}</Project>
+      <Name>GarlicStore.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GarlicStore.Models\GarlicStore.Models.csproj">
+      <Project>{126A2FCE-FB11-479C-99AD-09FF21460C3B}</Project>
+      <Name>GarlicStore.Models</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

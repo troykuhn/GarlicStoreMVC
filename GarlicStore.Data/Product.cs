@@ -11,14 +11,12 @@ namespace GarlicStore.Data
     {
         [Key]
         public int ProductId { get; set; }
-
         [Required]
         public string ProductName { get; set; }
-        [Required]
-        public string SKU { get; set; }
         [Required]
         public int StockQuantity { get; set; }
         [Required]
         public decimal Price { get; set; }
+        public float Rating { get; set; }
     }
 }

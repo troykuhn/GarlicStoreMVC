@@ -13,11 +13,17 @@ namespace GarlicStore.Data
         public int ReviewId { get; set; }
 
         [Required]
+        public int ProductId { get; set; }
+
+        [Required]
+        public Guid OwnerId { get; set; }
+
+        [Required]
         public string Message { get; set; }
 
         [Required]
         [Range(1, 5, ErrorMessage = "please choose a number between 1 and 5")]
-        public int Rating { get; set; }
+        public float Rating { get; set; }
 
         public virtual Product Product { get; set; }
 

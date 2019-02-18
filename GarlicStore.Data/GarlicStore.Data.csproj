@@ -62,6 +62,30 @@
     <Compile Include="Migrations\201902061622497_initial commit.Designer.cs">
       <DependentUpon>201902061622497_initial commit.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201902081437390_new.cs" />
+    <Compile Include="Migrations\201902081437390_new.Designer.cs">
+      <DependentUpon>201902081437390_new.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201902081609014_asassd.cs" />
+    <Compile Include="Migrations\201902081609014_asassd.Designer.cs">
+      <DependentUpon>201902081609014_asassd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201902112027447_ddksd.cs" />
+    <Compile Include="Migrations\201902112027447_ddksd.Designer.cs">
+      <DependentUpon>201902112027447_ddksd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201902131506148_rating.cs" />
+    <Compile Include="Migrations\201902131506148_rating.Designer.cs">
+      <DependentUpon>201902131506148_rating.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201902132003355_Transactions.cs" />
+    <Compile Include="Migrations\201902132003355_Transactions.Designer.cs">
+      <DependentUpon>201902132003355_Transactions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201902181851239_Review.cs" />
+    <Compile Include="Migrations\201902181851239_Review.Designer.cs">
+      <DependentUpon>201902181851239_Review.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Product.cs" />
     <Compile Include="IdentityModels.cs" />
@@ -79,6 +103,24 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201902061622497_initial commit.resx">
       <DependentUpon>201902061622497_initial commit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201902081437390_new.resx">
+      <DependentUpon>201902081437390_new.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201902081609014_asassd.resx">
+      <DependentUpon>201902081609014_asassd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201902112027447_ddksd.resx">
+      <DependentUpon>201902112027447_ddksd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201902131506148_rating.resx">
+      <DependentUpon>201902131506148_rating.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201902132003355_Transactions.resx">
+      <DependentUpon>201902132003355_Transactions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201902181851239_Review.resx">
+      <DependentUpon>201902181851239_Review.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

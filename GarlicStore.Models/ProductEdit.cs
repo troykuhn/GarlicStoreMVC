@@ -8,18 +8,16 @@ using System.Threading.Tasks;
 
 namespace GarlicStore.Models
 {
-    public class ProductCreate
+    public class ProductEdit
     {
         [Required]
-        [MinLength(2, ErrorMessage = "Please enter at least 2 characters.")]
-        [MaxLength(100, ErrorMessage = "There are too many characters in this field.")]
-        [DisplayName("Product Name")]
-        public string ProductName { get; set; }
-        [Required]
+        [DisplayName("Product ID")]
         public int ProductId { get; set; }
-        [Required]
+        
         [DisplayName("Stock Quantity")]
+        [Required]
         public int StockQuantity { get; set; }
+
         [Required]
         public decimal Price { get; set; }
     }
