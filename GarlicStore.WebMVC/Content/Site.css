@@ -1,12 +1,19 @@
 ﻿body {
     padding-top: 50px;
     padding-bottom: 20px;
+    background-image: url(https://images.pexels.com/photos/616404/pexels-photo-616404.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-size: cover;
+    font-family: 'Delius Unicase', cursive;
 }
 
 /* Set padding to keep content from hitting the edges */
 .body-content {
     padding-left: 15px;
     padding-right: 15px;
+    text-align: center;
+    color: #146200;
+    text-shadow: -1px -1px 0 #c1ffffc9, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    background-color: #c9b8a68c;
 }
 
 /* Override the default bootstrap behavior where horizontal description lists 
@@ -21,4 +28,106 @@ input,
 select,
 textarea {
     max-width: 280px;
+}
+
+.jumbotron {
+    background: transparent;
+    color: #146200;
+}
+
+    .jumbotron h1 {
+        color: #146200;
+        text-shadow: -2px -2px 0 #c1ffffc9, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+    }
+
+div.row {
+    background: transparent;
+    color: #146200;
+}
+
+.navbar-inverse {
+    background: #a069697d;
+}
+
+    .navbar-inverse .navbar-nav > li > a {
+        color: #ffd600c7;
+        text-shadow: -1px -1px 0 #c1ffffc9, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    }
+
+    .navbar-inverse .navbar-brand {
+        color: #ffd600c7;
+        text-shadow: -1px -1px 0 #c1ffffc9, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    }
+
+a {
+    color: Highlight;
+    text-decoration: none;
+}
+
+th {
+    text-decoration: underline;
+    color: antiquewhite;
+    font-size: 16px;
+}
+
+td {
+    font-size: 20px;
+    color: orange;
+}
+
+    td a:hover {
+        color: #337ab7;
+    }
+
+div.container.body-content p a {
+    font-size: 20px;
+}
+
+    div.container.body-content p a:hover {
+        color: antiquewhite;
+    }
+
+div.col-md-4 p {
+    height: 80px;
+    width: 360px;
+}
+
+div.col-md-4 {
+    width: 390px;
+    height: 433px;
+}
+
+ul.nav.navbar-nav.navbar-right li a {
+    color: Highlight;
+}
+
+    ul.nav.navbar-nav.navbar-right li a:hover {
+        color: #337ab7;
+    }
+
+.btn {
+    color: #fff;
+    background-color: Highlight;
+    border-color: antiquewhite;
+}
+
+    .btn:hover {
+        background: #337ab7;
+        color: antiquewhite;
+    }
+
+footer p {
+    font-size: 20px;
+    padding-top: 50px;
+    
+}
+
+footer {
+    
+    background-image: url(https://clipart.info/images/ccovers/1520611252Grass-PNG-Transparent-Image-2.png);
+    background-size: 80%;
+    background-repeat: repeat-x;
+    z-index: 1;
+    bottom: 0;
+    height: 110px;
 }

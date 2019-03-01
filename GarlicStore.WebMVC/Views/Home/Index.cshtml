@@ -3,29 +3,32 @@
 }
 
 <div class="jumbotron">
-    <h1>ASP.NET</h1>
-    <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.</p>
-    <p><a href="https://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
+    <h1>Farm Fresh Veggies</h1>
+    <img src="https://purepng.com/public/uploads/large/purepng.com-garlicvegetablesgarlic-onion-garlic-cloves-941524705723li1ev.png" alt="garlic" style="width:400px; height:300px;" />
+    <p class="lead">Shop our various products. Grown organically and harvested on our own farm! No added preservatives or GMOs!</p>
+    @Html.ActionLink("View Our Products!", null, "Product", null, new { @class = "btn btn-primary btn-lg"})
 </div>
 
 <div class="row">
     <div class="col-md-4">
-        <h2>Getting started</h2>
+        <img src="http://www.mail-stop-and-more.com/wp-content/uploads/2016/12/intl-shipping.png" alt="help" style="width:220px;height:190px;" />
+        <h2>Shipping</h2>
         <p>
-            ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that
-            enables a clean separation of concerns and gives you full control over markup
-            for enjoyable, agile development.
+            We ship anywhere in the United States for a low fee of $6.95! All orders over $25 qualify for FREE SHIPPING.
         </p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
+        @Html.ActionLink("Make a transaction!", null, "Transaction", null, new { @class = "btn btn-primary btn-lg" })
     </div>
     <div class="col-md-4">
-        <h2>Get more libraries</h2>
-        <p>NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.</p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301866">Learn more &raquo;</a></p>
+        <img src="https://www.russellfeedandsupply.com/wp-content/uploads/2016/05/OrganicStamp.png" alt="help" style="width:200px;height:190px;" />
+        
+        <h2>No Preservatives</h2>
+        <p>100% Natural & Organic. We take pride in knowing that every product is straight off the vine and into our customer's hands.</p>
+        <p><a class="btn btn-default" href="http://www.foodadditivesworld.com/preservatives.html">Learn more &raquo;</a></p>
     </div>
     <div class="col-md-4">
-        <h2>Web Hosting</h2>
-        <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
+        <img src="https://purepng.com/public/uploads/large/growing-leaves-j3n.png" alt="help" style="width:220px;height:190px;" />
+        <h2>Get Involved</h2>
+        <p>If you would like to get involved with us or help support our cause, please visit our contact page.</p>
+        @Html.ActionLink("Contact Us!", "Contact", null, new { @class = "btn btn-primary btn-lg" })
     </div>
 </div>

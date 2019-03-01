@@ -8,6 +8,7 @@ using System.Web.Mvc;
 
 namespace GarlicStore.WebMVC.Controllers
 {
+    [Authorize]
     public class ProductController : Controller
     {
         // GET: Product

@@ -9,6 +9,7 @@ using System.Web.Mvc;
 
 namespace GarlicStore.WebMVC.Controllers
 {
+    [Authorize]
     public class ReviewController : Controller
     {
         // GET: Review

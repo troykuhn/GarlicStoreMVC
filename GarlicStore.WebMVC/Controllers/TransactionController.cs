@@ -9,7 +9,7 @@ using System.Web.Mvc;
 
 namespace GarlicStore.WebMVC.Controllers
 {
-
+    [Authorize]
     public class TransactionController : Controller
     {
         // GET: Transaction
